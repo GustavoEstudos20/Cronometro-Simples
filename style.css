@@ -1,0 +1,56 @@
+html{
+    min-height: 100%;
+    background-image: url("IMG/matheus-matheus-purple-690724-1920.jpg");
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+    opacity: 0.8;
+}
+
+.secao_cronometro{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);;
+    background: rgba(255, 255, 255, 0.059);
+    backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(10px);
+    width: 25%;
+    height: 16%;
+    text-align: center;
+    border-radius: 20px;
+}
+
+button{
+    width: 6em;
+    height: 2.2em;
+    border: none;
+    text-align: center;
+    border-radius: 8px;
+    color: rgb(255, 255, 255);
+}
+
+p{
+    margin: 0 auto;
+    font-size: 3rem;
+    font-family:'Arial';
+}
+
+.comecar{
+    background-color: rgb(1, 74, 11);
+    font-family: 'Arial';
+}
+
+.pausar{
+    background-color: rgb(73, 73, 73);
+    font-family: 'Arial';
+}
+
+.zerar{
+    background-color: rgb(115, 0, 0);
+    font-family: 'Arial';
+}
+
+button:hover{
+    cursor: pointer;
+}
